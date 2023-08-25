@@ -1,5 +1,7 @@
 import requests
 api_key ='e1c19e5b340ccaf3c8cd5274f7322327'
+
+#forexamplemca1719214876-qwerty@11
 #api.openweathermap.org/data/2.5/forecast?q={cityname}&appid={API key}
 def wetherForcast(cityname,units='matric', api_key= api_key ):
     url = f"http://api.openweathermap.org/data/2.5/forecast?q={cityname}&appid={api_key}&units={units}"
